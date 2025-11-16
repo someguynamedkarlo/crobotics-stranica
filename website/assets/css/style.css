@@ -67,6 +67,11 @@ body {
 3. Ensure horizontal rules are visible by default.
 */
 
+body:not(.dark) .home h2,
+body:not(.dark) .is-home h2,
+body:not(.dark) main.homeroot h2 {
+  color: #1f6feb !important; /* change color as needed */
+}
 hr {
   height: 0;
   /* 1 */
